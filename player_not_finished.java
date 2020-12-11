@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class player_not_finished {
-    public static void main(String args[]){
+    public static void main(String[] args){
         String[] participant={"a","b","c","d"};
         String[] completion={"a","d","c"};
 
@@ -20,7 +20,6 @@ public class player_not_finished {
         for(int i=0; i< completion.length;i++) {
             listP.remove(listC.get(i));
         }
-        String answer= listP.get(0);
-        return answer;
+        return listP.get(0);
     }
 }
