@@ -19,7 +19,6 @@ public class dividing_array {
         int [] answer = new int[arraylist.size()];
         for(int i=0; i<arraylist.size(); i++)
             answer[i] = arraylist.get(i);
-
         Arrays.sort(answer);
         return answer;
     }
