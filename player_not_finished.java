@@ -8,12 +8,10 @@ public class player_not_finished {
     public static void main(String[] args){
         String[] participant={"a","b","c","d"};
         String[] completion={"a","d","c"};
-
         System.out.println(solution(participant,completion));
     }
 
     public static String solution(String[] participant, String[] completion){
-
         List<String> listP = new ArrayList<>(Arrays.asList(participant));
         List<String> listC = new ArrayList<>(Arrays.asList(completion));
 
