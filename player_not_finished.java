@@ -8,6 +8,7 @@ public class player_not_finished {
     public static void main(String[] args){
         String[] participant={"a","b","c","d"};
         String[] completion={"a","d","c"};
+        
         System.out.println(solution(participant,completion));
     }
 
