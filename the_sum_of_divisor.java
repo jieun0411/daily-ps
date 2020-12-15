@@ -2,7 +2,7 @@ package programmers;
 
 public class the_sum_of_divisor {
     public static void main(String[] args){
-        System.out.println(solution(5));
+        System.out.println(solution(12));
     }
     public static int solution(int n) {
         int answer = 1;
